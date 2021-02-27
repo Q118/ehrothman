@@ -1,13 +1,22 @@
-.my-nav {
-    background-color: blue !important;
-    color: white;
-}
-
 body {
     background-color: thistle;
 }
+
 
 .em-img {
     float: left;
     margin: 10px;
 }
+
+.my-nav {
+    background-color: cadetblue;
+    border-radius: 3px;
+    border: black 6px double;
+}
+
+.main-container {
+    background-color: cadetblue;
+    border-radius: 3px;
+    border: black 6px double;
+}
+
