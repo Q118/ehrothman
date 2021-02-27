@@ -1,5 +1,6 @@
-nav {
+.my-nav {
     background-color: blue !important;
+    color: white;
 }
 
 body {
