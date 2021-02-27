@@ -5,3 +5,8 @@ nav {
 body {
     background-color: thistle;
 }
+
+.em-img {
+    float: left;
+    margin: 10px;
+}
