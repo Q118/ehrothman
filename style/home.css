@@ -1,22 +1,44 @@
-body {
-    background-color: thistle;
+/**
+ * /* body {
+ *     background-color: thistle;
+ * }
+ * 
+ * 
+ * .em-img {
+ *     float: left;
+ *     margin: 10px;
+ * }
+ * 
+ * .my-nav {
+ *     background-color: cadetblue;
+ *     border-radius: 3px;
+ *     border: black 6px double;
+ * }
+ * 
+ * .main-container {
+ *     background-color: cadetblue;
+ *     border-radius: 3px;
+ *     border: black 6px double;
+ * }
+ *
+ * @format
+ */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Lato", sans-serif;
 }
-
-
-.em-img {
-    float: left;
-    margin: 10px;
+.w3-bar,
+h1,
+button {
+	font-family: "Montserrat", sans-serif;
 }
-
-.my-nav {
-    background-color: cadetblue;
-    border-radius: 3px;
-    border: black 6px double;
+.fa-anchor,
+.fa-coffee {
+	font-size: 200px;
 }
-
-.main-container {
-    background-color: cadetblue;
-    border-radius: 3px;
-    border: black 6px double;
-}
-
