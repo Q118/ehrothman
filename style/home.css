@@ -46,6 +46,7 @@ textarea {
 	height: auto;
 	max-width: 300px;
 	max-height: 300px;
+	border: black solid 4px;
 }
 
 .right-side {
