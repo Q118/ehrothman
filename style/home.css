@@ -1,28 +1,4 @@
-/**
- * /* body {
- *     background-color: thistle;
- * }
- * 
- * 
- * .em-img {
- *     float: left;
- *     margin: 10px;
- * }
- * 
- * .my-nav {
- *     background-color: cadetblue;
- *     border-radius: 3px;
- *     border: black 6px double;
- * }
- * 
- * .main-container {
- *     background-color: cadetblue;
- *     border-radius: 3px;
- *     border: black 6px double;
- * }
- *
- * @format
- */
+/** @format */
 
 body,
 h1,
@@ -41,4 +17,75 @@ button {
 .fa-anchor,
 .fa-coffee {
 	font-size: 200px;
+}
+
+.my-head {
+	background-image: url("../media/kid.jpeg");
+	background-size: contain;
+}
+
+.stroke {
+	color: white;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+/* Style inputs */
+input[type="text"],
+select,
+textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+input[type="submit"] {
+	background-color: #4caf50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.contact-container {
+    background-image: url('../media/email.png');
+    background-size: contain;
+    text-decoration-color: purple;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+	float: left;
+	width: 50%;
+	margin-top: 6px;
+	padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+	.column,
+	input[type="submit"] {
+		width: 100%;
+		margin-top: 0;
+	}
+}
+
+.email {
+    border: blue dotted 5px;
+    padding: 25px;
 }
