@@ -41,6 +41,16 @@ textarea {
 	margin-bottom: 16px;
 	resize: vertical;
 }
+.responsive {
+	width: 100%;
+	height: auto;
+	max-width: 300px;
+	max-height: 300px;
+}
+
+.right-side {
+	padding-left: 40px;
+}
 
 input[type="submit"] {
 	background-color: #4caf50;
@@ -56,9 +66,7 @@ input[type="submit"]:hover {
 
 /* Style the container/contact section */
 .contact-container {
-    background-image: url('../media/email.png');
-    background-size: contain;
-    text-decoration-color: purple;
+	background-color: #dac5f0;
 }
 
 /* Create two columns that float next to eachother */
@@ -86,6 +94,6 @@ input[type="submit"]:hover {
 }
 
 .email {
-    border: blue dotted 5px;
-    padding: 25px;
+	border: black dotted 5px;
+	padding: 25px;
 }
