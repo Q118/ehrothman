@@ -23,6 +23,15 @@ button {
 	background-image: url("../media/kid.jpeg");
 	background-size: contain;
 }
+.et {
+	font-size: 5rem;
+	font-family: 'Abril Fatface', cursive;
+}
+
+.kt {
+	font-size: 4rem;
+	font-family: 'Butterfly Kids', cursive;
+} 
 
 .stroke {
 	color: white;
@@ -40,6 +49,9 @@ textarea {
 	margin-top: 6px;
 	margin-bottom: 16px;
 	resize: vertical;
+}
+.hidden {
+	visibility: hidden;
 }
 .responsive {
 	width: 100%;
